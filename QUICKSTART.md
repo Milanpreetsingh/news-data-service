@@ -213,41 +213,4 @@ news-data-service/
 ✅ Automatic triggers for search vectors
 ✅ 2000 news articles loaded
 
-### Advanced Features
-✅ Redis caching for trending feeds
-✅ User event simulation for trending
-✅ Trending score calculation (volume + recency + proximity)
-✅ Geohash-based cache keys
-✅ Async/await throughout
-✅ Auto-generated Swagger documentation
-
----
-
-## Next Steps
-
-1. **Get Gemini API Key** (required)
-2. **Start the server**
-3. **Test with Swagger** (http://localhost:8000/docs)
-4. **Test with curl or Postman**
-
----
-
-## Deployment (When Ready)
-
-The codebase is ready for FREE deployment to:
-- **API**: Render.com (750 hours/month free)
-- **Database**: Neon.tech (PostgreSQL with PostGIS)
-- **Redis**: Upstash (10K commands/day free)
-
-Let me know when you want deployment instructions!
-
----
-
-## Need Help?
-
-- **Swagger Docs**: http://localhost:8000/docs (interactive API testing)
-- **Check logs**: Server output shows all requests
-- **Database issues**: Check `docker ps` to ensure containers are running
-- **Redis issues**: Run `docker logs news_redis`
-
 Enjoy building! 🚀
